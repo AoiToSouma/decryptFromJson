@@ -37,9 +37,9 @@ async function main() {
         const account = await xdc3.eth.accounts.decrypt(jsontext, keystore);
         console.log(RED);
         console.log('=================================================================================');
-        console.log('The address and keystore will be displayed. Make sure there are no people around.');
+        console.log('The address and privateKey will be displayed. Make sure there are no people around.');
         console.log('After checking, immediately clear the screen using the "clear" command.');
-        console.log('addressとkeystoreが表示されます。周りに人がいないことを確認してください。');
+        console.log('addressとprivateKeyが表示されます。周りに人がいないことを確認してください。');
         console.log('確認後はすぐに"clear"コマンドにて画面をクリアしてください。');
         console.log('=================================================================================');
         console.log(RESET);
